@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahnavi | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-[#0a0a0a] text-gray-300 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-[#0a0a0a] fixed top-0 left-0 w-full z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center border-b border-purple-900">
+      <h1 class="text-xl font-bold text-purple-400">Jahnavi</h1>
+      <ul class="flex space-x-6 text-sm uppercase">
+        <li><a href="#home" class="hover:text-purple-300">Home</a></li>
+        <li><a href="#about" class="hover:text-purple-300">About</a></li>
+        <li><a href="#education" class="hover:text-purple-300">Education</a></li>
+        <li><a href="#skills" class="hover:text-purple-300">Skills</a></li>
+        <li><a href="#gallery" class="hover:text-purple-300">Gallery</a></li>
+        <li><a href="#contact" class="hover:text-purple-300">Contact</a></li>
+        <li><a href="#resume" class="hover:text-purple-300">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center bg-[#0a0a0a] pt-20 px-4">
+    <h2 class="text-5xl font-bold text-purple-300">Hi, I’m Jahnavi</h2>
+    <p class="mt-4 max-w-2xl text-lg text-gray-400">A traveler, a Bharatanatyam dancer, and a curious learner in the world of code and creativity. I love capturing the world through my lens and telling stories through movement and visuals.</p>
+    <a href="#about" class="mt-8 px-6 py-3 border border-purple-400 text-purple-300 hover:bg-purple-600 hover:text-white rounded-full transition">Know More</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-24 px-6 bg-[#121212]">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-purple-300 mb-6">About Me</h2>
+      <p class="text-gray-400 mb-4">I'm Jahnavi, currently a first-year Computer Engineering student. Although I’m new to tech, I’ve always found joy in creating — whether it’s through dance, design, or photography.</p>
+      <p class="text-gray-400">I hold a Master’s degree in Bharatanatyam, and though I haven’t performed in a while, the art still lives in my heart. I also love exploring new places and capturing beautiful landscapes wherever I go.</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-24 px-6 bg-[#0a0a0a]">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-purple-300 mb-10">Education</h2>
+      <ul class="space-y-6 border-l border-purple-600 pl-6">
+        <li>
+          <h3 class="text-lg text-purple-200 font-semibold">2024 – Present</h3>
+          <p>Fr. CRCE – B.E. in Computer Engineering</p>
+        </li>
+        <li>
+          <h3 class="text-lg text-purple-200 font-semibold">2019 – 2023</h3>
+          <p>Master’s in Bharatanatyam – [Institution Name]</p>
+        </li>
+        <li>
+          <h3 class="text-lg text-purple-200 font-semibold">School</h3>
+          <p>[Your School Name] – Completed 10th and 12th</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24 px-6 bg-[#121212]">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-purple-300 mb-10 text-center">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 border border-purple-700 rounded-md">HTML & CSS</div>
+        <div class="p-4 border border-purple-700 rounded-md">Tailwind CSS</div>
+        <div class="p-4 border border-purple-700 rounded-md">Basic JavaScript</div>
+        <div class="p-4 border border-purple-700 rounded-md">UI/UX Design (Beginner)</div>
+        <div class="p-4 border border-purple-700 rounded-md">Photography</div>
+        <div class="p-4 border border-purple-700 rounded-md">Bharatanatyam</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-24 px-6 bg-[#0a0a0a]">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-purple-300 mb-10 text-center">Gallery</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="https://source.unsplash.com/400x300/?travel,landscape" class="rounded-lg" />
+        <img src="https://source.unsplash.com/400x300/?mountains" class="rounded-lg" />
+        <img src="https://source.unsplash.com/400x300/?temple" class="rounded-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 px-6 bg-[#121212]">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-purple-300 mb-6">Contact Me</h2>
+      <p class="text-gray-400 mb-6">Want to collaborate, connect, or just say hi? Drop me a message!</p>
+      <form class="grid gap-4">
+        <input type="text" placeholder="Name" class="p-3 rounded bg-[#1a1a1a] border border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-500" />
+        <input type="email" placeholder="Email" class="p-3 rounded bg-[#1a1a1a] border border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-500" />
+        <textarea placeholder="Your Message" class="p-3 rounded bg-[#1a1a1a] border border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-500" rows="5"></textarea>
+        <button type="submit" class="mt-4 px-6 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="py-24 px-6 bg-[#0a0a0a]">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-purple-300 mb-6">Resume</h2>
+      <p class="text-gray-400 mb-4">Want a quick snapshot of my journey so far? You can view or download my resume below:</p>
+      <a href="resume.pdf" target="_blank" class="inline-block px-6 py-3 mt-4 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 bg-[#0a0a0a] border-t border-purple-800 text-purple-200">
+    © 2025 Jahnavi Shah | All rights reserved ✨
+  </footer>
+
+</body>
+</html>
